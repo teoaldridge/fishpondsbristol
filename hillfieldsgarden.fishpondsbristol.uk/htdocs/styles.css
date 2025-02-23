@@ -1,0 +1,562 @@
+/*Viewport*/
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+body {
+  text-align: center;
+}
+
+/*Document level adjustments for font size*/
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+/*Text*/
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  padding: 3rem;
+}
+
+h2, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.subheading {
+  padding: 3rem 0;
+}
+
+/*Containers*/
+.container-fluid {
+  padding: 4% 10%;
+}
+
+/*Section Colors*/
+.coloured-section {
+  background-color: #0A4934;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+  color: #0A4934;
+}
+
+/*Sections Padding and Layout*/
+
+.section{
+  padding: 7% 18%;
+  align-content: center;
+}
+
+@media (max-width: 900px) {
+  .section{
+    padding: 7% 10%;
+  }
+}
+
+@media (max-width: 400px) {
+  .section{
+    padding: 7% 3%;
+  }
+}
+
+
+/*Images*/
+.text-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 7%;
+}
+
+@media (max-width:620px) {
+  .text-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 7%;
+  }
+}
+
+.text-image-vertical {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-bottom: 7%;
+}
+
+@media (max-width:620px) {
+  .text-image-vertical {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 7%;
+  }
+}
+
+.garden-logo-rectangle{
+  width: 40%;
+  padding-bottom: 3rem;
+}
+
+@media(max-width:620px){
+  .garden-logo-rectangle{
+    width: 80%;
+  }
+}
+
+.garden-logo-long{
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+
+/*Emails*/
+.email {
+  word-break: break-all;
+}
+
+/*Go to top button*/
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 100;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #81b214;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 1rem;
+  /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555;
+  /* Add a dark-grey background on hover */
+}
+
+/*Navbar*/
+.navbar-logo {
+  /*display: contents;*/
+  padding-top: 8%;
+}
+
+
+
+.navbar-toggler{
+  margin: 10%;
+}
+
+.dropdown-menu {
+  opacity: 0.85;
+}
+
+/*Title*/
+#title {
+  padding-bottom: 7%;
+}
+
+.title-heading{
+  padding-top:2%;
+}
+
+.title-image {
+  width: 50%;
+  position: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+}
+
+@media (max-width:620px) {
+  .title-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+}
+
+/*Calendar*/
+#calendar {
+  padding: 7% 18%;
+  background-color: #368B85;
+}
+
+.calendar {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+/*Gallery*/
+.gallery-heading {
+  padding-top: 10%;
+}
+
+.gallery-image {
+  width: 75%;
+}
+
+.gallery-vertical-image {
+  width: 40%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+/*Supported By*/
+.supportedby-heading {
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 3% 3% 5%;
+}
+
+@media (max-width: 900px) {
+  .press-logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 400px) {
+  .press-logo {
+    width: 30%;
+  }
+}
+
+.flag-press-logo {
+  float: left;
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.flag-press-logo-text {
+  font-size: 0.8rem;
+}
+
+.flag-press-logo-image {
+  width: 50%;
+}
+
+/*News*/
+
+.news-poster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 7%;
+}
+
+.news-poster-vertical {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 7%;
+}
+
+.news-text {
+  padding-bottom: 40px;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.news-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 7%;
+}
+
+
+/*Groups*/
+#groups {
+  background-color: #a9dda1
+}
+
+.groups-time {
+  font-size: 1.5rem;
+}
+
+.groups-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 7%;
+}
+
+.groups-link {
+  color: #1687a7;
+}
+
+.groups-link:hover {
+  color: #81b214;
+}
+
+.groups-social-icon {
+  color: #1687a7;
+}
+
+.groups-social-icon:hover {
+  color: #81b214;
+}
+
+/*Volunteer*/
+
+.volunteer-text {
+  padding-bottom: 40px;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.volunteer-link {
+  color: #1687a7;
+}
+
+.volunteer-link:hover {
+  color: #81b214;
+}
+
+/*About*/
+#about {
+  background-image: url(images/grass.png);
+  padding: 7%;
+}
+
+.about-container {
+  width: 100%;
+}
+
+.about-heading {
+  padding-top: 12%;
+  padding-bottom: 7%;
+}
+
+.about-subheading {
+  padding: 7% 7% 7% 7%;
+}
+
+.about-text {
+  padding: 0 7% 7% 7%;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.about-image-div {
+  padding-bottom: 7%;
+}
+
+.about-divimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 1%;
+}
+
+@media (max-width:620px) {
+  .about-divimage{
+    width:90%;
+  }
+}
+
+.image-text {
+  font-size: 1.1rem;
+}
+
+
+
+.about-link {
+  color: #1687a7;
+}
+
+.about-link:hover {
+  color: #81b214;
+}
+
+/*Contacts*/
+#contacts {
+  padding-bottom: 5%;
+}
+
+.contact-heading {
+  margin-bottom: 7%;
+}
+
+.contacts-column {
+  padding-bottom: 5%;
+}
+
+.contacts-text {
+  line-height: 1.5;
+  font-size: 1.7rem;
+  margin: 5% 0;
+}
+
+.contact-details {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  display: inline-block;
+  word-break: break-all;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contact-icon:hover {
+  color: #81b214;
+}
+
+.contact-social-icon {
+  color: #1687a7;
+  font-size: 1.5rem;
+}
+
+.contact-social-icon:hover {
+  color: #81b214;
+}
+
+.btn-success {
+  margin-bottom: 7%;
+}
+
+/*Contact Form*/
+#collapseForm {
+  padding: 2% 20% 7%;
+}
+
+@media (max-width:620px) {
+  #collapseForm{
+    padding: 2% 0 7%;
+  }
+}
+
+
+.form-container {
+  border-radius: 5px;
+  background-color: #bfdcae;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0A4934;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #81b214;
+}
+
+/*Map*/
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  max-width: 90%;
+}
+
+/*Footer*/
+#footer {
+  background-color: #81b214;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  font-size: 1.3rem;
+  color: #004445;
+}
+
+.social-icon:hover {
+  color: white;
+}
+
+.copyright-text {
+  color: #bfdcae;
+}
+
+/*Hover*/
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}

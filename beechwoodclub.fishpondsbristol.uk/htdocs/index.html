@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Beechwood Club Bristol</title>
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/cff0841aa3.js" crossorigin="anonymous"></script>
+
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!--Viewport-->
+  <meta name="viewport" content="initial-scale=1">
+
+</head>
+
+<body>
+
+  <!--Scroll to top button-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <script type="text/javascript">
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
+
+
+    <!-- Title Nav Bar -->
+  <section id="title" class="coloured-section">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-xl navbar-dark" class="nav">
+
+        <div class="row">
+          <div class="logo">
+            <a class="navbar-logo" href="https://fishpondsbristol.uk/about/#about-flag">
+              <img src="images/fish.png" alt="" width="90">
+              <p class="logo-text">
+                Fishponds Locality<br /> Action Group
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://fishpondsbristol.uk">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://fishpondsbristol.uk/about/#about-beechwood">About Beechwood Club</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://fishpondsbristol.uk/about/#history-beechwood">History of Beechwood Club</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#calendar">Calendar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#whats-on">What's on</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Booking & Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Title-->
+
+      <h1 class="title-heading">Beechwood Club</h1>
+
+      <img class="title-image" src="images/titleBeechwoodClubPhotoframed.png" alt="">
+
+    </div>
+  </section>
+
+  <!--News-->
+  <section id="news" class="section white-section">
+    <h1 class="news-heading">News</h1>
+    <h2 class="news-sub-heading">Join us at FLAG's Annual General Meeting</h2> 
+    <p class="news-text">
+    We have our Annual General Meeting of FLAG which is being held at the Beechwood Club on Friday 10th February 2023. <br> 
+    We are meeting at 7pm.<br>
+    Local residents who would like to get involved or would like to learn more about what we do are welcome to join us!
+    </p>
+  </section>
+
+  <!--Gallery-->
+  <section id="gallery">
+
+    <h1 class="gallery-heading">Gallery</h1>
+
+    <div id="gallery-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <img class="gallery-image" src="images/hall1.jpg" alt="slide 1">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/beechwoodfacade.jpg" alt="slide 2">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/hall2.jpg" alt="slide 3">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/hall3.jpg" alt="slide 4">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/kitchen1.jpg" alt="slide 5">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/kitchen2.jpg" alt="slide 6">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/garden1.jpg" alt="slide 7">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/garden2.jpg" alt="slide 8">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/garden3.jpg" alt="slide 9">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/garden4.jpg" alt="slide 10">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/garden5.jpg" alt="slide 11">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/garden6.jpg" alt="slide 12">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/garden7.jpg" alt="slide 13">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/yogaNikkiHall.png" alt="slide 14">
+        </div>
+      </div>
+
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#gallery-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#gallery-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!--Calendar-->
+  <section id="calendar" class="white-section">
+    <div class="container-fluid calendar-container">
+
+      <h1 class="calendar-heading">Calendar</h1>
+
+      <div class="table-responsive-lg">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Monday</th>
+              <th scope="col">Tuesday</th>
+              <th scope="col">Wednesday</th>
+              <th scope="col">Thursday</th>
+              <th scope="col">Friday</th>
+              <th scope="col">Saturday</th>
+              <th scope="col">Sunday</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <!--Monday-->
+              <td>
+                <b>9:30 - 10:30</b><br>Dance Fit with Cressida 07808581739 <br> <a class="info-icon" href="#dancefit"><i class="fas fa-info-circle"></i></a>
+                <br><br>
+                <b>11:00 - 12:15</b><br />Mum and Baby Singing with Eloise 07742829021 
+                <br><br>
+                <b>13:30 - 15:45</b><br />Sequence Dance with Teresa. Tuition partners required. <br> 01179650203 07399422257 <br> <a class="info-icon" href="#sequencedance"><i class="fas fa-info-circle"></i></a>
+                <br /><br />
+                <b>17:00 - 20:30</b><br />Slimming world with Claire<br>07791574353 claireballsw@gmail.com
+              </td>
+
+              <!--Tuesday-->
+              <td>
+                <b>09:30 - 12:30</b><br />Slimming World with Claire<br>07791574353 claireballsw@gmail.com
+                <br /><br />
+                <b>12.30 - 13:30pm</b><br />Dave Evans Private dance practice
+                <br><br>
+                <b>1st Tuesday every month</b><br>
+                <b>14:00 - 16:00</b><br>TWG<br>acacia36@hotmail.com
+                <br><br>
+                <b>17:45 - 18:45</b><br>Jack Procter Yoga <br>07791883522 jackprockter90@gmail.com
+                <br><br>
+                <b>19:00 - 20:00</b><br />Zumba with Steph 07584624136 <br> <a class="info-icon" href="#zumba-steph"><i class="fas fa-info-circle"></i></a>
+                <br /><br />
+                <b>20:15 - 21:15</b><br />Yoga with Nikki 07525735500 <br> <a class="info-icon" href="#yoga-nikki"><i class="fas fa-info-circle"></i></a>
+              </td>
+
+              <!--Wednesday-->
+              <td>
+                <b>9:30 - 12:00</b><br /> Stay and Play Playgroup with Steph 07825839165  <br> <a class="info-icon" href="#playgroup"><i class="fas fa-info-circle"></i></a>
+                <br /><br />
+                <b>13:45 - 15:15</b><br />Women's Reading Group (3rd Wednesday each month) 0790536609 <br> <a class="info-icon" href="#reading"><i class="fas fa-info-circle"></i></a>
+                <br /><br />
+                <b>14:00 - 15:30</b><br />URA Reading Group (1st Wednesday each month) <br>
+                <br /><br />
+                <b>14:00 - 15:30</b><br />Milestone Trust (Last Wednesday in each month). <br>
+                <br /><br />
+                <b>17:45 - 18:45</b><br />Yoga with Nikki/Sarah 0796851748 <br> <a class="info-icon" href="#yoga-nikki"><i class="fas fa-info-circle"></i></a>
+                <br /><br />
+                <b>19:30 - 21:30</b><br /> Equality dancing with Norma bristolequalitydance@gmail.com 07786063634 <br> <a class="info-icon" href="#strictly"><i class="fas fa-info-circle"></i></a>
+                <br /><br />
+              </td>
+
+              <!--Thursday-->
+              <td>
+                <b>9:30 - 10:30</b><br />Yoga with Nikki 07896302099 <br> <a class="info-icon" href="#yoga-nikki"><i class="fas fa-info-circle"></i></a>
+                <br /><br />
+                <b>14:00 - 15:00</b><br />Dance Fit with Cressida 07808581739 <br> <a class="info-icon" href="#dancefit"><i class="fas fa-info-circle"></i></a>
+                <br /><br />
+                <b>19:00 - 21:45</b><br />Beechwood Association Sequence Dance with Hazel 07717326302. Strictly members only. Membership is currently closed. <br> <a class="info-icon" href="#sequencedance"><i class="fas fa-info-circle"></i></a>
+              </td>
+
+              <!--Friday-->
+              <td>
+                <b>9:30-10:30</b><br>Yoga and acupuncture with Kan/Eloise 07742829021 
+                <br><br>
+                <b>13:45-16:15</b><br>Alzheimer Society with Sophia  07872866501
+                <span class="calendar-email">sophia.simlat@alzheimers.org.uk </span>
+                <br> <a class="info-icon" href="#alzheimersociety"><i class="fas fa-info-circle"></i></a>
+                <br><br>
+                <b>19:00-21:30</b><br> Concord Band Practice with Jayne 07880724948 
+                <br><br>
+              </td>
+
+              <!--Saturday-->
+              <td>
+                <b>9:00-10:00</b><br>Zumba with Steph 07584624136<br> <a class="info-icon" href="#zumba-steph"><i class="fas fa-info-circle"></i></a>
+                <br><br>
+                <b>10:15 to 11:45 every 1st Saturday of the Month</b> Sarah play group.  
+                <br><br>
+                <b>10:00-14:00 every 2nd and 4th week of the Month</b><br>Respite explorers for people with Autism with Emma/Jayne
+                <br><br>
+                <b>15:30-17:00</b><br>Sadie Spikes, dates to be advised 07831381177
+                <br><br>
+                <b>19:00-22:00 every 2d and 4th Saturday of the Month</b><br>Sequence Dance <br>
+                2nd Saturday Teresa 0119650203 or 07399422257, 4th Saturday Colin 01179612763<br> <a class="info-icon" href="#sequencedance"><i class="fas fa-info-circle"></i></a>
+                <br><br>
+              </td>
+
+              <!--Sunday-->
+              <td>
+                <b>9:30-12:30</b><br>Redemption Life Church 0745440040<br> <a class="info-icon" href=""><i class="fas fa-info-circle"></i></a>
+                <br><br>
+                <b>1st Sunday every month 14:00-16:30</b><br>Bristol Fellowiship Church<br> <a class="info-icon" href=""><i class="fas fa-info-circle"></i></a>
+                <br><br>
+                <b>1st Sunday every Month 18:00-19:30</b><br>Monthly L&G dance tuition with Jacqui<br>
+              </td>
+
+
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!--What's on-->
+  <section id="whats-on">
+
+    <h1 class="whatson-heading">What's on</h1>
+
+    <div class="row">
+
+      <!--Yoga with Nikki-->
+      <div id="yoga-nikki" class="classDescription-column col-lg-4 col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="images/yogaNikki.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Yoga with Nikki</h5>
+            <p class="card-text">
+              Tuesdays 8:15pm-9:15pm<br />
+              Wednesdays 5:45pm-6:45pm<br />
+              Thursdays 9:30am-10:30am <br />
+              Thursdays 6pm-7pm<br /><br />
+
+              This class will help give you overall flexibility, build your fitness, bring you more strength and balance and relax your mind.
+              You will stretch out tight muscles to reduce aches and stiffness and allow your mind to switch off from everyday work and life stress.
+              All are welcome including absolute beginners of any age and fitness levels.<br /><br />
+              <b>Contact Nikki:</b> <br />
+              t: 07525735500 <br />
+              m: nikki@urban-yoga.net <br />
+              <a class="class-website-link" href="https://www.urban-yoga.net/nikkimeadleymecom#tmup=/p/1129662-urban-yoga/ ">www.urban-yoga.net</a> <br />
+              <a href="https://www.facebook.com/UrbanYogaBristolUk">
+                <i class="class-social-icon fab fa-facebook-f"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dancefit with Cressida-->
+      <div  id="dancefit" class="classDescription-column col-lg-4 col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="images/dancefitCressida.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Dancefit with Cressida</h5>
+            <p class="card-text">
+              Mondays 9:30am - 10.30am <br>
+              Thursdays 2pm-3pm <br /><br />
+              If you like dancing and moving to music, this is the class for you! We exercise to a wide range of music, including Latin, pop, rock & roll, bollywood etc.
+              Suitable over 50's or those looking for a low impact fun class. Beginners welcome.<br /><br />
+              £5.50 (no pre-booking).<br /><br />
+              <b>Contact Cressida:</b><br />
+              t: 07808 581739<br />
+              <a class="class-website-link" href="http://www.cressidachilds.co.uk">www.cressidachilds.co.uk</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--Sequence Dance with Teresa-->
+      <div  id="sequencedance" class="classDescription-column col-lg-4 col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="images/hall3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Sequence Dance with Teresa</h5>
+            <p class="card-text">
+              Mondays 1:45pm-4pm<br />
+              Thursdays 7:30pm-9:30pm<br /><br />
+              I teach sequence dance with my husband Terry. We have 45 minutes of instruction and practice for the rest of the time.<br /><br />
+              <b>Contact Teresa:</b><br />
+              t: 07399422257<br />
+              m: tk007h9736@blueyonder.co.uk<br />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Equality Dancing with Norma-->
+      <div  id="strictly" class="classDescription-column col-lg-4 col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="images/dancingNorma.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Equality Dancing with Norma</h5>
+            <p class="card-text">
+              Wednesdays 7:30pm-9:30pm<br /><br />
+              Have fun and get fit with our friendly latin, ballroom and salsa classes. We cover popular line dances, solo technique and partner dancing.
+              Everyone is welcome, including same-gender dancers, and the classes are suitable for beginners. <br /><br />
+              <b>Contact Norma:</b> <br />
+              m: bristolequalitydance@gmail.com <br />
+              <a href="https://www.facebook.com/BristolEqualityDance/">
+                <i class="class-social-icon fab fa-facebook-f"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+<!--Zumba with Steph-->
+      <div  id="zumba-steph" class="classDescription-column col-lg-4 col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="images/zumbaSteph.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Zumba with Steph</h5>
+            <p class="card-text">
+              Saturdays 9:30am - 10:30am <br> <br>
+              Zumba® is a total body workout, combining all elements of fitness: cardio, muscle conditioning, balance and flexibility.
+              Classes are designed for everybody, mixing low-intensity and high-intensity moves for an interval-style, calorie-burning dance fitness party! <br><br>
+              <b>Contact Steph:</b> <br>
+              t: 07584624136 <br>
+              <a class="class-website-link" href="https://www.zumbabristol.co.uk/">www.zumbabristol.co.uk</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+<!--Women's Reading Group-->
+      <div  id="reading" class="classDescription-column col-lg-4 col-md-6">
+        <div class="card">
+          <img class="card-img-top" src="images/reading-group-s.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Women's Reading Group</h5>
+            <p class="card-text">
+              Every 3d Wednesday of each month 1:30pm - 3:00pm <br> <br>
+              The group was established over 15 years ago for women to read books by women writers.  We keep broadly to this principle.
+              We meet on the 3rd Wednesday of each month from 1.30-3.00.  We read a wide range of books, suggested by the members, and obtained via the local library.
+               We occasionally go to local book festivals e.g. Wells, Bath, Hawkesbury Upton. <br><br>
+              <b>Contacts:</b> <br>
+              t: 0790536609 <br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+            <!--Play Group Steph-->
+                  <div  id="playgroup" class="classDescription-column col-lg-4 col-md-6">
+                    <div class="card">
+                      <img class="card-img-top" src="images/playgroup.jpeg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Beechwood Play Group with Steph</h5>
+                        <p class="card-text">
+                          Wednesday 9:00am - 11:00am<br> <br>
+                           All welcome!<br>
+                          Unstructured drop-in play session. <br />
+                          You can stay as little or as long as you like! <br />
+                          Includes drinks and snacks for adults and little ones.<br />
+                          <br />
+                          £2 voluntary cash donation welcome.<br />
+                          <br>
+                          <b>Contacts:</b> <br>
+                          t: 07825839165<br>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials" class="white-section">
+
+    <h1 class="testimonials-heading">Testimonials</h1>
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">"Beechwood Club is my favourite place to go for exercise classes.
+            We hired the Beechwood Club hall for my son's fifth birthday and I was so impressed with the kitchen and amount of space we got for the price!"</h2>
+          <em class="testimonials-author">Laura, local resident
+          </em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"We are so lucky to have this hall in our area.
+            I frequently attend classes there and in the past have organized a playgroup which was held in Beechwood Club. The hall is beautiful and the facilities are fantastic!"</h2>
+          <em class="testimonials-author">Teodora, local resident and former organizer of the Bulgarian Playgroup in Bristol </em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"Every year the members of the Beechwood Club (FLAG), give our local Rainbow Unit, Brownie Pack, Guide Company help and support.
+            We hold a Christmas Fair each year and they kindly donate the use of the hall for this - with no charge.
+            Helping us to make the most of the funds we raise each year.<br />
+
+            As members of Girlguiding we rely on subscriptions from parents and continued fundraising -
+            this is our only income throughout the year. So maximising what we make at events is priceless.<br />
+
+            Not only that but members of the committee also give up their time to help set up and clear up, and many of them of them support us on the day.<br />
+
+            They have also been welcoming and supportive and are keeping a great asset to Fishponds open - well maintained and accessible."<br />
+          </h2>
+          <em class="testimonials-author">A member of a local troup of Guides and Brownies</em>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+
+  </section>
+
+  <!--Contacts-->
+  <section id="contacts" class="section">
+    <div class="container-fluid">
+
+      <h1 class="contacts-heading">Contact us</h1>
+
+      <h2 class="contacts-text">
+        Beechwood Club is available to hire for classes and clubs! Regular new classes always considered.<br /><br>
+        For bookings, feedback, and suggestions, contact us on:
+      </h2><br />
+      <i class="contact-icon fas fa-mobile"></i>
+      <p class="contact-details">07581331994</p><br />
+      <i class="contact-icon fas fa-envelope"></i>
+      <p class="contact-details">tk007h9736@blueyonder.co.uk</p><br><br>
+      <a href="https://www.facebook.com/fishpondsbeechwoodclub">
+        <i class="contact-social-icon fab fa-facebook-f"></i>
+      </a><br><br>
+
+      <!--Contacts Form-->
+      <a class="btn btn-dark" data-toggle="collapse" href="#collapseGarden" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Contact Beechwood Club
+      </a>
+
+      <div class="collapse" id="collapseGarden">
+      <div class="form-container">
+        <form action="mailto:tk007h9736@blueyonder.co.uk" method="post" enctype="text/plain">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name " placeholder="Your name..">
+          <br>
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email " placeholder="Your email..">
+          <br>
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <br><br>
+
+    <iframe class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d330.82363641462626!2d-2.5280060615569018!3d51.480694246275846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718fdda803e459%3A0x51162e3a8ce0c289!2sBeechwood%20Club!5e0!3m2!1sen!2suk!4v1620994749427!5m2!1sen!2suk"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+  </section>
+
+  <!--Footer-->
+
+  <footer id="footer" class="white-section">
+    <div class="container-fluid">
+
+      <a href="https://www.facebook.com/fishpondsbeechwoodclub">
+        <i class="social-icon fab fa-facebook-f"></i>
+      </a>
+      <a href="#contacts">
+        <i class="social-icon fas fa-envelope"></i>
+      </a>
+
+      <p class="copyright-text">© Teodora Aldridge <script>document.write(new Date().getFullYear())</script></p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

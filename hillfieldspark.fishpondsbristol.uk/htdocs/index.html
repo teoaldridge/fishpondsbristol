@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hillfields Park Bristol</title>
+
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/cff0841aa3.js" crossorigin="anonymous"></script>
+
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!--Viewport-->
+  <meta name="viewport" content="initial-scale=1">
+
+</head>
+
+<body>
+
+  <!--Scroll to top button-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <script type="text/javascript">
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
+
+  <!-- Title Nav Bar -->
+  <section id="title" class="coloured-section">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-xl navbar-dark" class="nav">
+
+        <div class="row">
+          <div class="logo">
+            <a class="navbar-logo" href="https://fishpondsbristol.uk/about/#about-flag">
+              <img src="images/fish.png" alt="" width="90">
+              <p class="logo-text">
+                Fishponds Locality<br /> Action Group
+              </p>
+            </a>
+          </div>
+          <div class="logo">
+            <a class="navbar-logo" href="https://fishpondsbristol.uk/about/#about-friends">
+              <img src="images/tree.png" alt="" width="90">
+              <p class="logo-text">
+                Friends of<br /> Hillfields Park
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://fishpondsbristol.uk">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://fishpondsbristol.uk/about/#about-friends">About Friends of Hillfields Park</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://fishpondsbristol.uk/about/#history-friends">History of Friends of Hillfields Park</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News & Current Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bmx">BMX Club</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.hillfieldscommunitygarden.co.uk">Community Garden</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Title-->
+
+      <h1 class="title-heading">Hillfields Park</h1>
+
+      <img class="title-image" src="images/park1framed.png" alt="">
+
+    </div>
+  </section>
+
+
+  <!--Gallery-->
+  <section id="gallery" class="white-section">
+
+    <h1 class="gallery-heading">Gallery</h1>
+
+    <div id="gallery-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <img class="gallery-image" src="images/park1.jpg" alt="slide 1">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/park2.jpg" alt="slide 2">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/park3.jpg" alt="slide 3">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/park4.jpg" alt="slide 4">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/park5.jpg" alt="slide 5">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/dronepark.jpg" alt="slide 6">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/bmxtrack.jpg" alt="slide 7">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/bmxtrack2.jpg" alt="slide 8">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/bmx1.jpg" alt="slide 9">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/bmx2.jpg" alt="slide 10">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/bmxkids.jpg" alt="slide 11">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/bmxlady.jpg" alt="slide 12">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/park6.jpg" alt="slide 13">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/park7.jpg" alt="slide 14">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/park8.jpg" alt="slide 15">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/park9.jpg" alt="slide 16">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/flowerplanting.jpg" alt="slide 17">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/quire.jpg" alt="slide 18">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/brassBand.jpg" alt="slide 19">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/picnicPark.jpg" alt="slide 20">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/tree-planting-woodland.jpg" alt="slide 21">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-image" src="images/tree-planting-people.jpg" alt="slide 22">
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="gallery-vertical-image" src="images/tree-planting-man.jpg" alt="slide 23">
+        </div>
+      </div>
+
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#gallery-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#gallery-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!--News & Current Projects-->
+  <section id="news" class="section">
+    <h1 class="heading">News & Current Projects</h1>
+
+
+    <h2 class="news-subheading">News</h2>
+
+    <h3 class="subheading">Please fill in our <a class="about-link" href="https://docs.google.com/forms/d/e/1FAIpQLSct_DnT_TwtzBs-2agDADnGmoqujCCMwDU7CBBJQgTEWGmcXg/viewform?embedded=true">questionnaire</a>!</h3>
+
+    <p class="text"> Please fill in our <a class="about-link" href="https://docs.google.com/forms/d/e/1FAIpQLSct_DnT_TwtzBs-2agDADnGmoqujCCMwDU7CBBJQgTEWGmcXg/viewform?embedded=true">
+        questionnaire</a> and let us know what you'd like to see happening in Hillfields Community Garden.</p> <br>
+
+    <img class="text-image" src="images/idea.jpg" alt="">
+
+    <br><br>
+
+    <h3 class="subheading">Hillfields Community Garden has four social groups you can join in!</h3>
+
+    <img class="news-poster-vertical" src="images/whatsonposter.png" alt="">
+    <br><br>
+    <p class="text">
+      All groups are free of charge.
+      Please visit our
+      <a class="link" href="https://www.hillfieldsgarden.fishpondsbristol.uk/">Hillfields Community Garden</a>
+      web page for more details.
+    </p>
+
+
+    <h2 class="subheading">Current projects</h2>
+
+    <p class="text">
+      Currently, Friends of Hillfields Park are working on the following exciting projects: <br><br>
+      • A second BMX bike track. We have secured funding for it and presently,
+      we are collaborating with contractors and Bristol City Council to start the project. <br><br>
+      • A new Hillfields Park Community Garden! Have a look at our
+      <a class="link" href="https://www.hillfieldsgarden.fishpondsbristol.uk/">Hillfields Community Garden</a>
+      web page for more information.<br><br>
+
+    </p>
+
+  </section>
+
+  <!--BMX Club-->
+  <section id="bmx" class="section white-section">
+    <div class="bmx-container">
+
+      <h1 class="heading">BMX Club</h1>
+
+      <img class="text-image" src="images/bmxkids.jpg" alt="">
+
+      <p class="text">
+        The Hillfields BMX club is run by local volunteers and parents in collaboration with <a class="link" href="https://www.accesssport.org.uk/bristol">Access Sport</a>.<br />
+        The club offers the following BMX sessions, led by qualified BMX coaches:<br><br>
+        • Beginners (boys and girls) - Saturdays 10:15am- 11:15am, £2 per session.<br>
+        • Intermediates (boys and girls) - Saturdays 11:15am-12:15am, £2 per session.<br>
+        • Girls-only - Thursdays 5:00pm-5:45pm, £2 per session.<br>
+        • Women-only - Thursdays 6:00pm-7:00pm, £3 per session.<br>
+        • Free sessions during the school holidays – Tuesday mornings. <br><br>
+
+
+        BMX bikes and helmets are provided by the club for the duration of the sessions.<br><br>
+        For more information and to book a space, please visit our
+        <a class="link" href="https://www.facebook.com/HillfieldsBMX/">Facebook page</a> or contact:<br><br>
+        <i class="contact-icon fas fa-envelope"></i>hillfieldsbmx@gmail.com <br>
+        <a href="https://www.facebook.com/HillfieldsBMX/"><br>
+          <i class="bmx-social-icon fab fa-facebook-f"></i>
+        </a>
+      </p>
+
+    </div>
+  </section>
+
+  <!--Community Garden-->
+  <section id="garden" class="section">
+    <div class="garden-container white-section">
+
+      <h1 class="heading">Hillfieldss Community Garden</h1>
+
+      <h2 class="garden-subheading"> A new community garden in Hillfields Park! </h2> <br>
+
+      <p class="garden-text">
+        We are a group of local residents and volunteers who have come together to develop a growing project
+        which will bring the community together benefiting all ages. <br><br>
+        We started working on this project during the COVID lock down of 2020
+        and since then, the council have agreed to us using an area in Hillfields Park to create a community garden. <br>
+        So far, we have built and planted two raised beds, and have plans to build more of them,
+        put in a wildflower area and an orchard. <br>
+        We are currently working on the design of the community garden,
+        after which we will be looking for funding for the next stage of its development. <br><br>
+
+        <img class="text-image" src="images/raisedbed-sunny.jpg" alt="">
+
+        The community garden currently hosts the following regular free of charge social groups: <br><br>
+        • <a class="link" href="https://www.hillfieldscommunitygarden.co.uk/groups.html">Gardening for Wellbeing</a> <br>
+        • <a class="link" href="https://www.hillfieldscommunitygarden.co.uk/groups.html">Wild Women</a> <br>
+        • <a class="link" href="https://www.hillfieldscommunitygarden.co.uk/groups.html">Mini Explorers</a> <br>
+        • <a class="link" href="https://www.hillfieldscommunitygarden.co.uk/groups.html">Volunteer Gardening Group</a> <br> <br>
+
+        We organized a Community Garden Picnic in June 2021, which was a great success!
+        A lot of local residents joined the picnic and many said that they would love to attend more social gatherings in Hillfields Park.
+        We are planning to organise and use the Hillfields Community Garden & Hillfields Park space for similar events in the future.
+        <br><br>
+        Please visit our
+        <a class="link" href="https://www.hillfieldscommunitygarden.co.uk">Hillfields Community Garden</a>
+        web page for more information.
+      </p> <br>
+
+    </div>
+  </section>
+
+  <!--Contacts-->
+  <section id="contacts" class="white-section">
+    <div class="container-fluid">
+
+      <h1 class="heading">Contact us</h1>
+
+
+      <!--Contact-Column-->
+      <h2 class="contacts-text">
+        Friends of Hillfields Park:
+      </h2>
+      <br><br>
+      <i class="contact-icon fas fa-envelope"></i>
+      <p class="contact-details">hillfieldspark@gmail.com</p> <br><br>
+      <a href="https://www.facebook.com/Friends-of-Hillfields-Park-100101725436540">
+        <i class="contact-social-icon fab fa-facebook-f"></i>
+      </a> <br><br><br>
+
+      <!--Contacts Form-->
+
+      <a class="btn btn-success" data-toggle="collapse" href="#collapseForm" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Contact Friends
+      </a>
+
+      <div class="collapse" id="collapseForm">
+        <div class="card card-body">
+
+          <div class="form-container">
+            <form action="mailto:hillfieldspark@gmail.com" method="post" enctype="text/plain">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name " placeholder="Your name..">
+              <br>
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email " placeholder="Your email..">
+              <br>
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+              <br>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <!--Map-->
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1872.935921034968!2d-2.5213772018725726!3d51.474723663093975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718fe9ab747db1%3A0xdcf699f854b25eb7!2sHillfields%20Park%2C%20Bristol!5e0!3m2!1sen!2suk!4v1620992457814!5m2!1sen!2suk"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer id="footer" class="footer-section">
+    <div class="container-fluid">
+
+      <a href="https://www.facebook.com/Friends-of-Hillfields-Park-100101725436540">
+        <i class="social-icon fab fa-facebook-f"></i>
+      </a>
+      <a href="#contacts">
+        <i class="social-icon fas fa-envelope"></i>
+      </a>
+
+      <p class="copyright-text">© Teodora Aldridge <script>
+          document.write(new Date().getFullYear())
+        </script>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

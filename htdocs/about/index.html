@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hillfields Park and Beechwood Club</title>
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!--CSS Stylesheets-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/cff0841aa3.js" crossorigin="anonymous"></script>
+
+  <!--Bootstrap Scripts-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!--Viewport-->
+  <meta name="viewport" content="initial-scale=1">
+
+</head>
+
+<body>
+
+  <!--Scroll to top button-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <script type="text/javascript">
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
+
+  <!-- Portal Nav Bar -->
+  <section id="portal" class="coloured-section">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark" class="nav">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-flag">About FLAG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#history-flag">History of FLAG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-friends">About Friends of Hillfields Park</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#history-friends">History of Friends of Hillfields Park</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-beechwood">About Beechwood Club</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#history-beechwood">History of Beechwood Club</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Portal -->
+      <div class="row" class="images-portal">
+        <div class="portal-column col-lg-6">
+          <a href="#about-flag">
+            <img class="portal-image" src="images/fish.png" alt="">
+            <h1 class="portal-heading">Fishponds Locality<br /> Action Group</h1>
+          </a>
+        </div>
+        <div class="portal-column col-lg-6">
+          <a href="#about-friends">
+            <img class="portal-image" src="images/tree.png" alt="">
+            <h1 class="portal-heading">Friends of<br /> Hillfields Park</h1>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--About FLAG-->
+  <section id="about-flag" class="section white-section">
+
+      <h1 class="about-heading">About FLAG</h1>
+
+      <img class="about-logo" src="images/fish.png" alt="">
+
+      <p class="about-text">
+        FLAG (Fishponds Locality Action Group Limited) was founded in 1998. We are a group of friendly and enthusiastic local volunteers who aim to improve
+        the quality of life of all residents in the area of Fishponds, Bristol (nominally the Eastville, Fromevale and Hillfields wards).<br><br>
+        We are always eager to learn about the aspirations and needs of the residents of Fishponds. <br><br>
+        We develop activities and services that aim to meet some of the specific needs and aspirations of the local people. <br><br>
+        We collaborate with and help other organizations and individuals who also aim to improve the wellbeing of the people in our local area. <br><br>
+        If you would like to join our team as a volunteer, please <a href="#contacts">contact us</a>.
+
+      </p>
+
+  </section>
+
+  <!--History of FLAG-->
+  <section id="history-flag" class="section">
+
+      <h1 class="about-heading">History of FLAG</h1>
+
+      <p class="about-text">FLAG (Fishponds locality action group limited) was started when a Local group, called HAG (Hillfields Action Group),
+        worked with the education department of Bristol City Council to seek funding to build a childcare centre next to the Youth Club in Hillfields.
+        FLAG was needed by the council to apply for funding as the council was unable to apply for the available funds.
+        The funding application was successful and hence FLAG found themselves the owner of a childcare centre building.
+        The FLAG committee initially ran the childcare centre.<br /><br />
+        Round the same time, FLAG became involved with a scheme, called Neighbourhood Renewal. This was a scheme to boost the area of Hillfields,
+        as it was deemed as failing and in need of a lift. Locals, local organisations and groups, the health service, councillors,
+        the police and others were invited to participate. The organisers were looking for an organisation to take some of the projects forward.
+        FLAG was chosen and an office and secretary and finance officer were paid by the renewal scheme.<br /><br />
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/nursery.jpg" alt="">
+        <p class="image-text">
+          The childcare centre, currently Mama Bears' Nursery.
+        </p>
+      </div>
+
+      <p class="about-text">
+        Becky Johnson of a firm called Futures West ran one of these projects for the local environment.
+        She worked closely with a group of local people, whom she formed into The Friends of Hillfields Park.
+        She was the driving force in working on improvements to Hillfields park, as well as other local environmental projects,
+        such as a community garden, although sadly, this never got off the ground.<br /><br />
+        Other projects included the BS16 Babes (ladies' exercise group), a dinner club (which was run at Hillfield’s Community centre).
+        These later switched to the Baptist Church for their venue.<br /><br />
+        Neighbourhood Renewal ran for three years. On finishing, this left FLAG with no funding and the office and paid officials had to go.<br /><br />
+        We have continued to attend meetings set up by the council and councillors to discuss the local area.<br /><br />
+        We also carried out our own consultations with Hillfields Infants and Junior school (present Minerva Primary Academy), Hillfields Youth Club, as well as local adult residents.<br /><br />
+        Over the next few years, the committee members dwindled. We no longer had the expertise to continue the running of the childcare centre.
+        We arranged, with the help of the education department at Bristol City Council, to find a new firm to run the childcare centre with Mama Bear's Nursery being chosen.
+        We still retained ownership of the centre, with Mama Bear's paying a small rental to FLAG. We retain the right to inspect these premises from time to time.<br /><br />
+        The Friends of Hillfields park committee joined with the remaining FLAG committee members to ensure its future.<br /><br />
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/hall1.jpg" alt="">
+        <p class="image-text">
+          The Beechwood Club at present.
+        </p>
+      </div>
+
+      <p class="about-text">
+        FLAG was approached to run the Beechwood Club which we accepted. This again gave us a base to work from.
+        We are charged with the running of the Beechwood Club and to do all maintenance required. To this end we have regular contractors to provide
+        annual maintenance tasks. We also have a small, but vibrant gardening group to maintain the club’s gardens and planters.
+        We get many favourable comments from club members and passers by about these planters.<br /><br />
+        Managing Beechwood Club is a perfect way to help carry out the FLAG commitments as per its constitution, by having many local people enjoying the venue's facilities.<br /><br />
+        We had to do all the work ourselves as we had no capital to work with. We obtained a five -year lease from Bristol Council and negotiated that 25% of any profits,
+        FLAG could retain to spend on its own projects. All other profits were to be used for the benefit of the Beechwood club.
+        It was run down and had just a few member groups. There were lots of ideas on how to generate an income, but the one that
+        proved to be the easiest was to hire the building to local groups. This proved popular and we were soon covering our outgoings.
+        All the profits were spent on improvements to the premises with the aim of making it desirable to potential hirers.<br /><br />
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/kitchen1.jpg" alt="">
+        <p class="image-text">
+          The kitchen at the Beechwood Club at present.
+        </p>
+      </div>
+
+      <p class="about-text">
+        It became so popular that we now are in the position of not being able to accommodate all the groups who wish to use it.
+        Users have included Argentine Dancing, Cycle Club, Dancing Tots, Hanham More Club for the Elderly, Kumon, children’s parties,
+        Reading Group, dancing classes, Job Shop for People with Disabilities Club, Yoga, Zumba, Keep Fit, Pole Dancing Tuition, church groups, Slimming World,
+        mother & toddler groups, U3A History Group, TWG, Singing for the Brain and other Alzheimer groups, etc..
+        We canvass each group for feedback annually not only for our performance, but for potential improvements to the Beechwood Club.<br /><br />
+        This has led to a much healthier financial position.<br /><br />
+        We are now able to give free hire for groups such as Magazine for the Blind AGM’s, the local Brownies / Guides for their Christmas fundraising fair,
+        and Activate, who run the local annual flower show.<br /><br />
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/feteroundabout.jpg" alt="">
+        <p class="image-text">
+          The fete at Hillfields Park in 1993.
+        </p>
+      </div>
+
+      <p class="about-text">
+        We have also been able to give grants to many local organisations, such as Guides / Brownies, Snuff Mills Action Group,
+        Friends of Fishponds Park, Hillfields Baptist Church, Chester Park School and a Hillfields Junior Football Club.<br /><br />
+        We have been involved in running activities in Hillfields park such as fetes, and children’s holiday play schemes.<br /><br />
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/fetedogcompetition.jpg" alt="">
+        <p class="image-text">
+          The fete at Hillfields Park in 1993.
+        </p>
+      </div>
+
+      <p class="about-text">
+        We have also supplied new play equipment in the park play area.<br><br>
+        We work very closely and have given financial support to The Friends of Hillfields Park in their efforts to improve Hillfields Park.<br><br>
+        The latest involvement in the park is to build a junior BMX track for younger children or those that find difficulty using the main BMX track in the park.
+        We are currently holding discussions with Access Sports and Velo-solutions, who both were responsible for the construction of the present BMX track in the park.
+        We have a project manager who The Parks' Department have appointed to work on this project.<br><br>
+        We have £65,000 available for this project of which £20,000 we were given permission for from John Boss of Bristol Council,
+        to use out of the Beechwood Club's reserves which has built up over the years. Although this money was earmarked solely to be used on the Beechwood Club,
+        the wheeled area was thought to be such a good idea for the area, that the permission was given.
+        It helped that we still have considerable funds in the Beechwood club account.
+        There is an additional £14,000 available from a grant made by Neighbourhood Partnership.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/bmx2.jpg" alt="">
+        <p class="image-text">
+          The current BMX track at Hillfields Park.
+        </p>
+      </div>
+
+      <p class="about-text">
+        We have recently donated towards the construction of a community garden which is being constructed by a group of local mums,
+        a project that we fully support and hope to carry on supporting.<br><br>
+        During the Covid 19 lockdown, we embarked on many improvements to the Beechwood Club whilst the hall was not in use.
+        These include the renovation of the hall floor, a new heating system boiler, a kitchen water heater, decorating both inside and the outside of the building,
+        as well as maintaining the normal annual checks.<br><br>
+        Our main objective at the Beechwood Club at present, is to obtain some stability with our hirers, now that the lockdown is coming to an end,
+        and help all that wish to return every help in succeeding with this.<br><br>
+        We are creating this website to help with this and allow free advertising for all users to boost their attendance.
+      </p>
+  </section>
+
+  <!--About Friends of Hillfields Park-->
+
+  <section id="about-friends" class="section white-section">
+
+      <h1 class="about-heading">About<br />Friends of Hillfields Park</h1>
+
+      <img class="about-logo" src="images/tree.png" alt="">
+
+      <p class="about-text">
+        Friends of Hillfields Park is an initiative and friendly group of local residents, which was founded in 2002.
+        Since then, the group has made many improvements to the park and keeps doing so to this day.<br><br>
+        Friends of Hillfields Park is set up to:<br><br>
+        • Seek to improve facilities and general quality of the local environment.<br>
+        • Encourage the use of the park by all local residents – ensuring the park is accessible for use by all, including disabled residents.<br>
+        • Involve local residents and community groups in consultation, planning and decision-making.<br>
+        • Seek sources of funding.<br>
+        • Publicise and run events and improvements to Hillfields Park and raising awareness of the importance of green spaces.<br>
+        • Work with the Park’s Department to achieve our aims.<br>
+        • Reduce fear of crime and antisocial behaviour.<br>
+        • Ensure sustainability of Hillfields Park for future generations.<br><br>
+        If you would like to join Friends of Hillfields Park as a volunteer, please <a href="#contacts">contact us</a>.<br>
+      </p>
+
+  </section>
+
+  <!--History of Friends of Hillfields Park-->
+  <section id="history-friends" class="section">
+
+      <h1 class="about-heading">History of<br />Friends of Hillfields Park </h1>
+
+      <p class="about-text">
+        This text was written by the local resident and member of Friends of Hillfields Park, Christine
+        who was born in 1948 and has lived in Hillfields since she was three years old.<br /><br />
+        “When I was at Hillfields Junior school in the 50's, we used the Rec (Park) for our sports days.
+        It was an open field with a tennis court and a water fountain. I remember Prince Phillip opening the youth club which stood on one corner of the park,
+        alongside a community centre. A football club played in the park using the community centre's changing rooms.
+        Later a very small games area was added and a very small tarmac basketball court.<br /><br />
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/oldpark.jpg" alt="">
+        <p class="image-text">
+          Hillfields Park before the paths were built.
+        </p>
+      </div>
+
+      <p class="about-text">
+        By the year 2000 this had all fallen into disrepair. A children's nursery was being constructed where the tennis court was.<br /><br />
+        The area was considered to be going downhill and a project named Neighbourhood renewal was introduced to the area to try and give it a boost.
+        This had many sections, and FLAG was used to run some of its projects.<br /><br />
+        Becky Johnson of Business West was involved to try to boost the green areas around the estate. She recruited some local volunteers who formed into the Friends of Hillfields park.
+        Projects considered included a community garden and improving the park, grass verges etc. The friends group started by cleaning the rec of waste cartons, paper etc and handing out dog poo bags.<br /><br />
+        The first major project involved obtaining a large grant of £40,000, to construct footpaths around the park. We also added waste bins for rubbish collection.<br /><br />
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/oldsportsground.jpg" alt="">
+        <p class="image-text">
+          The old basketball court at Hillfields Park.
+        </p>
+      </div>
+
+      <p class="about-text">
+        Small things such as tree and daffodil planting also took place.<br><br>
+        John Knowlson was our main contact with Bristol parks department. The Friends had raised money towards play equipment. John asked us to use this money along with a pathfinder budget provided by the government,
+        to improve the play area and if put together would produce a better result than doing two separate projects which was agreed. Friends became involved with the design.
+        Kevin Turner, a Friends member suggested taking the play area up to the park entrance and this was adopted nearly doubling the play area.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/oldplayground.jpg" alt="">
+        <p class="image-text">
+          The old playground at Hillfields Park.
+        </p>
+      </div>
+
+      <p class="about-text">
+        The Friends have added a climbing frame subsequently when it had available funds as well as seating and waste bins.<br><br>
+        We organized a couple of Fetes and play schemes for the school holidays, but due to Bristol city council demands this became more onerous.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/fetegame.jpg" alt="">
+        <p class="image-text">
+          The fete at Hillfields Park in 1993.
+        </p>
+      </div>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/fetebouncy.jpg" alt="">
+        <p class="image-text">
+          The fete at Hillfields Park in 1993.
+        </p>
+      </div>
+
+      <p class="about-text">
+        Our next major project was to construct a Multi Games Area with the aid of a £94,000 Ground Force grant. This involved cooperation again with the Council. It took around 4 years from start to finish.
+        To arrive at the look and dimension we had to thank the Hillfields Youth club in part but mainly to the Hillfields Park Junior School (currently Minerva Primary Academy), who arranged interviews around our proposals
+        and diagrams, with children at the school.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/mugabuilding.jpg" alt="">
+        <p class="image-text">
+          The building of the Multi Games Area.
+        </p>
+      </div>
+
+      <p class="about-text">
+        One of the items particularly liked by Ground Force was that the Multi Games Area would be used for local people and could not be reserved for outside club use. Bookings are not permitted.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/mugaopening.jpg" alt="">
+        <p class="image-text">
+          Opening of the Multi Games Area.
+        </p>
+      </div>
+
+      <p class="about-text">
+        The other major item in the park is the BMX track. This was originally built via Neighbourhood partnership money with some negotiation within our organization. This track was enlarged and greatly improved in 2019.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/oldbmxtrack.jpg" alt="">
+        <p class="image-text">
+          The old BMX track.
+        </p>
+      </div>
+
+      <p class="about-text">
+        We have been working on a wheeled area for some 6 years and are hoping to make some progress on this in the next year. We have a project manager appointed by the council to work on this.
+        We are working on a second wheeled track which is being built to complement the existing track by catering for younger / less experienced children, as a starter and practice track.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/bmxtrack.jpg" alt="">
+        <p class="image-text">
+          The BMX track at Hillfields Park at present.
+        </p>
+      </div>
+
+      <p class="about-text">
+        We are also currently working on setting up a community garden and planting some more trees in the park. “
+
+      </p>
+
+  </section>
+
+  <!--About Beechwood Club-->
+  <section id="about-beechwood" class="section white-section">
+
+      <h1 class="about-heading">About Beechwood Club</h1>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/hall3.jpg" alt="">
+        <p class="image-text">
+          The Beechwood Club.
+        </p>
+      </div>
+
+      <p class="about-text">
+        The Beechwood Club is a place for activities for the local community.<br><br>
+        The building is owned by Bristol City Council and is managed on a lease by Fishponds Locality Action Group,
+        who are responsible for running it as a community facility.<br>
+        The Fishponds Locality Action Group are a group of local volunteers whose aim is to improve the quality of life for people in the area.
+        Read more about FLAG <a href="#about-flag">here</a>. <br><br>
+        The building is accessible for people of all abilities, and it has an inclusive, non-religious and non-sectarian policy.<br>
+        There is a large public car park next to the building, which provides easy parking for the club users.<br><br>
+        The Beechwood Club is available for hire by groups / people in the greater Fishponds area.<br>
+        We specialize in groups that have regular meeting times but can consider one-off bookings if there is availability.
+        To book or make an enquiry, please <a href="#contacts">contact us</a>.
+      </p>
+
+  </section>
+
+  <!--History of Beechwood Club-->
+  <section id="history-beechwood" class="section">
+
+      <h1 class="about-heading">History of Beechwood Club</h1>
+
+      <p class="about-text">
+        This text is written by Mr Terry King, who has been a member of FLAG since it was founded, and has been very closely involved with the management of the
+        Beechwood Club throughout the years. <br><br>
+        “There is a plaque in the foyer of the Beechwood club and I think it was dated mid 1950's. <br><br>
+        The Beechwood club was started as a centre for senior citizens. Alas they proved to be unable to run it.
+        I have no knowledge about its history until just before FLAG became involved.<br><br>
+        Before FLAG became involved, the NHS, through a group, called “Re-Think” were running it.
+        This was something to do with people who need some kind of mental health support. They moved out in 2008.<br><br>
+        The Beechwood Dance Club were one of the groups of the time. They tell stories of having to phone the council each time there was a problem.
+        There were armchairs scattered around the room which they had to dance around.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/beechwoodfacade.jpg" alt="">
+        <p class="image-text">
+          The entrance of the Beechwood Club at present.
+        </p>
+      </div>
+
+      <p class="about-text">
+        The council were not able to run it and they asked FLAG if we would. They said that three groups were already in occupation.
+        They all had keys to access the hall and lock up. We later realized a fourth group were using it but had paid no rent for three years.<br><br>
+        From scratch we had to right all the necessary policies and procedures. Luckily, we were able to copy most of these from a community centre that
+        published their policies online and with help from our own policies of the Childcare centre which we owned.
+        We also had to work with the council's Cat Standards when we finally were granted a lease. I will not even try to explain these.<br><br>
+        Simply, the terms were that we would be responsible for all the running costs and maintain the premises inside and outside.
+        We were charged to run it as a community venue for the good of the local people.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/hall2.jpg" alt="">
+        <p class="image-text">
+          The Beechwood Club hall at present.
+        </p>
+      </div>
+
+      <p class="about-text">
+        As we were without a permanent home ourselves, we decided to give it a go. The objectives mirrored FLAG's own objectives, giving the opportunity to help more people,
+        by using the hall for various activities and gave us a greater scope to work towards these objectives. <br><br>
+        The building was run down and needed a lot of TLC. The council gave us a grant of £3000 with a promise of no further financial help.<br><br>
+        One thing was certain, to attract more clients we had to spruce up the building and its facilities. This was our first priority.
+        Also, making it as easy to run as possible was a priority to keep the volunteer work from becoming too much to handle.<br><br>
+        We decided not to run activities ourselves, as this would be too much of a commitment. Therefore, we hired the hall to local groups and organizations
+        and carried on the practice of the council which was to give each group a key to let themselves in and lock up. This worked extremely well,
+        and the caretaker only needed to be contacted by the groups should a problem occur.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/garden7.jpg" alt="">
+        <p class="image-text">
+          The view of the building from the Beechwood Club's back garden.
+        </p>
+      </div>
+
+      <p class="about-text">
+        We started to run it in November 2009 and eventually were given a five year lease and a load of conditions which we had to adhere to.
+        Some of the early classes included a tap class, the dance class, a history club, Towns-woman's guild, Hannah More society, a Somali group, and a keep fit group.<br><br>
+        A couple of Church groups started using the hall on Sundays and a jujutsu club on Wednesday evenings and occasional adult and children's parties on the weekend
+        and it gradually grew from there.<br><br>
+        We carried out all maintenance, cleaning, gardening ourselves to keep outgoings low.<br><br>
+        After a couple of years there were more keep fit type groups noticeably using the hall. Our maintenance on the wood floor was working.<br><br>
+        Groups have come and gone. Fortunately, we are now in the position of sometimes having to turn new groups away as we do not have the times they require.
+        We now have very little spare hire time available.<br><br>
+        Our cautious approach to spending along with continued near full hire of the hall, has given us considerable financial stability.
+        We have the council's permission to retain 25% of the profits made from running the Beechwood Club, in the FLAG accounts and this has built up over the years.<br><br>
+        We seek to build a wheeled area in Hillfields park with these profits. We are in talks with the council to complete this in 2021.<br><br>
+        The rest of the money is kept for the benefit of the Beechwood Club only. One exception to this is for permission by the council to spend £20,000 of the money
+        in the Beechwood Account on the wheeled area.<br><br>
+      </p>
+
+      <div class="about-image-div">
+        <img class="about-image" src="images/kitchen2.jpg" alt="">
+        <p class="image-text">
+          The Beechwood Club's kitchen.
+        </p>
+      </div>
+
+      <p class="about-text">
+        Due to our financial stability, we have been able to help other local groups with small donations from time to time.
+        An access ramp for a Local Baptist Church, and equipment for their children's club, Snuff Mills Action Group, A local junior football club, Brownies / Guides troupe,
+        Chester Park Infant School. As well as this we allow some free hire time for charitable groups in our hall. <br><br>
+        Alas the COVID19 virus arrived and the hall could not be used. We would like to thank the council and government for the donations we have received
+        which were sufficient to cover the costs over this period.<br><br>
+        We took the opportunity of the hall being closed to carry out lots of maintenance and improvements in 2020.<br><br>
+        The main details of these are:<br>
+        • Complete interior and exterior redecoration,<br>
+        • A new alarm system,<br>
+        • Renovation of the wood floor,<br>
+        • Entrance non slip mat,<br>
+        • A new heating boiler, and thermostat,<br>
+        • A new kitchen water heater,<br>
+        • Maintenance and repair of the flat roof,<br>
+        • Two Murals for the garden area.<br>
+        All this was paid from retained profits.<br><br>
+        Time of writing: May 2021.”
+      </p>
+
+  </section>
+
+  <!--Contacts-->
+  <section id="contacts" class="white-section">
+    <div class="container-fluid">
+
+      <h1 class="contact-heading">Contact us</h1>
+
+      <div class="row">
+        <!--Contact-Column-->
+        <div class="contacts-column col-lg-4">
+          <h2 class="contacts-text">
+            FLAG and<br /> Beechwood Club:
+          </h2>
+          <i class="contact-icon fas fa-mobile"></i>
+          <p class="contact-details">07581331994</p>
+          <br />
+          <i class="contact-icon fas fa-envelope"></i>
+          <p class="contact-details email">tk007h9736@blueyonder.co.uk</p> <br>
+          <a href="https://www.facebook.com/fishpondsbeechwoodclub">
+            <i class="contact-social-icon fab fa-facebook-f"></i>
+          </a> <br><br>
+
+          <!--Contacts Form-->
+
+          <a class="btn btn-info" data-toggle="collapse" href="#collapseFLAG" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Contact FLAG
+          </a>
+
+          <div class="collapse" id="collapseFLAG">
+            <div class="card card-body">
+
+              <div class="form-container">
+                <form action="mailto:tk007h9736@blueyonder.co.uk" method="post" enctype="text/plain">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name " placeholder="Your name..">
+                  <br>
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email " placeholder="Your email..">
+                  <br>
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                  <br>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!--Contact-Column-->
+        <div class="contacts-column col-lg-4">
+          <h2 class="contacts-text">
+            Friends of<br />Hillfields Park:
+          </h2>
+          <br><br>
+          <i class="contact-icon fas fa-envelope"></i>
+          <p class="contact-details email">hillfieldspark@gmail.com</p> <br>
+          <a href="https://www.facebook.com/Friends-of-Hillfields-Park-100101725436540">
+            <i class="contact-social-icon fab fa-facebook-f"></i>
+          </a> <br><br>
+
+          <!--Contacts Form-->
+
+          <a class="btn btn-info" data-toggle="collapse" href="#collapseFriends" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Contact Friends
+          </a>
+
+          <div class="collapse" id="collapseFriends">
+            <div class="card card-body">
+
+              <div class="form-container">
+                <form action="mailto:hillfieldspark@gmail.com" method="post" enctype="text/plain">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name " placeholder="Your name..">
+                  <br>
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email " placeholder="Your email..">
+                  <br>
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                  <br>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <!--Contact-Column-->
+        <div class="contacts-column col-lg-4">
+          <h2 class="contacts-text">
+            Hillfields <br />Community Garden:
+          </h2>
+          <br>
+          <i class="contact-icon fas fa-envelope"></i>
+          <p class="contact-details email">hillfieldscommunitygarden@gmail.com</p> <br>
+          <a href="https://www.facebook.com/Hillfields-Community-Garden-112250440564722">
+            <i class="contact-social-icon fab fa-facebook-f"></i>
+          </a><br><br>
+
+          <!--Contacts Form-->
+
+          <a class="btn btn-info" data-toggle="collapse" href="#collapseGarden" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Contact Community Garden
+          </a>
+
+          <div class="collapse" id="collapseGarden">
+            <div class="card card-body">
+
+              <div class="form-container">
+                <form action="mailto:hillfieldscommunitygarden@gmail.com" method="post" enctype="text/plain">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name " placeholder="Your name..">
+                  <br>
+                  <label for="email">Your Email</label>
+                  <input type="email" id="email" name="email " placeholder="Your email..">
+                  <br>
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                  <br>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer id="footer" class="footer-section">
+    <div class="container-fluid">
+
+      <a href="#contacts">
+        <i class="social-icon fas fa-envelope"></i>
+      </a>
+
+      <p class="copyright-text">© Teodora Aldridge <script>document.write(new Date().getFullYear())</script></p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

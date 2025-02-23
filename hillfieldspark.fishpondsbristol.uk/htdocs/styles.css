@@ -1,0 +1,429 @@
+/*Viewport*/
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+body {
+  text-align: center;
+}
+
+/*Document level adjustments for font size*/
+html{
+  font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  html { font-size: 14px; }
+}
+@media (max-width: 400px) {
+  html { font-size: 12px; }
+}
+
+/*Containers*/
+.container-fluid {
+  padding: 4% 10%;
+}
+
+/*Sections Padding and Layout*/
+
+.section{
+  padding: 7% 18%;
+  align-content: center;
+}
+
+@media (max-width: 900px) {
+  .section{
+    padding: 7% 10%;
+  }
+}
+
+@media (max-width: 400px) {
+  .section{
+    padding: 7% 3%;
+  }
+}
+
+
+/*Section Colors*/
+.coloured-section {
+  background-color: #276678;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+  color: #282846;
+}
+
+
+/*Text*/
+h1 {
+  font-family: 'Architects Daughter', cursive;
+}
+
+h2, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading{
+  padding: 7%;
+}
+
+.subheading{
+  padding: 8%;
+}
+
+.second-sub-heading{
+  padding: 0 8% 8% 8%;
+}
+
+.text{
+  padding-bottom:5%;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+/*Images*/
+
+.news-poster-vertical {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 7%;
+}
+
+.text-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 7%;
+}
+
+@media (max-width:620px) {
+  .text-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 7%;
+  }
+}
+
+.text-image-vertical {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding-bottom: 7%;
+}
+
+@media (max-width:620px) {
+  .text-image-vertical {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-bottom: 7%;
+  }
+}
+
+/*Links*/
+.link{
+  color: #1687a7;
+}
+
+.link:hover{
+  color: #81b214;
+}
+
+/*Go to top button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:  #81b214; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1rem; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*Navbar*/
+.navbar-logo {
+  display: contents;
+}
+
+.logo {
+  margin-right: 2px;
+}
+
+.logo-text{
+  color:white;
+}
+
+.navbar-toggler {
+  margin: 40 0 40 0;
+}
+
+
+.dropdown-menu{
+opacity: 0.85;
+}
+
+/*Title*/
+#title{
+  padding-bottom: 7%;
+}
+
+.title-heading{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+
+.title-image{
+  width: 60%;
+  position: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+}
+
+@media (max-width:620px){
+  .title-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+}
+
+/*Gallery*/
+.gallery-heading{
+  padding-top: 5%;
+}
+
+.gallery-image{
+  width:80%;
+}
+
+.gallery-vertical-image {
+  width: 40%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+   filter: invert(1);
+}
+
+/*News and Current Projects*/
+#news{
+  background-color: #D8E9A8;
+  color: #282846;
+}
+
+.news-poster{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 7%;
+}
+
+
+/*BMX Club*/
+
+
+.bmx-social-icon{
+  color: #1687a7;
+}
+
+.bmx-social-icon:hover{
+  color:#81b214;
+}
+
+/*Community Garden*/
+#garden{
+  background-image: url(images/grass.png);
+  padding: 7%;
+}
+
+.garden-container{
+  width: 100%;
+}
+
+.garden-subheading{
+  padding: 0 7% 3% 7%;
+}
+
+.garden-text{
+  padding:0 7% 7% 7%;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.garden-image-div{
+  padding-bottom: 7%;
+}
+
+.garden-divimage{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 1%;
+}
+
+.image-text{
+  font-size: 1.1rem;
+}
+
+/*Contacts*/
+#contacts{
+  padding-bottom: 5%;
+}
+
+.contacts-column{
+  padding-bottom: 5%;
+}
+
+.contacts-text{
+  line-height: 1.5;
+  font-size: 1.7rem;
+  margin: 5% 0;
+}
+
+.contact-details{
+line-height: 1.5;
+font-size: 1.5rem;
+display: inline-block;
+}
+
+.contact-icon{
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contact-icon:hover{
+  color: #81b214;
+}
+
+.contact-social-icon{
+  color: #1687a7;
+  font-size: 1.5rem;
+}
+
+.contact-social-icon:hover{
+  color:#81b214;
+}
+
+.btn-success{
+  margin-bottom: 7%;
+}
+
+/*Contact Form*/
+
+#collapseForm{
+  padding: 2% 20% 7%;
+}
+
+@media (max-width:620px) {
+  #collapseForm{
+    padding: 2% 0 7%;
+  }
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: #bfdcae;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0A4934;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #81b214;
+}
+
+/*Map*/
+.map{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  max-width: 90%;
+}
+
+
+/*Footer*/
+#footer{
+  background-color: #81b214;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  font-size: 1.3rem;
+  color: #004445;
+}
+
+.social-icon:hover{
+  color: white;
+}
+
+.copyright-text{
+  color: #bfdcae;
+}
+
+
+/*Hover*/
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
